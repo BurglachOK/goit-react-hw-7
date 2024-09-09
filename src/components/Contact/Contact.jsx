@@ -17,8 +17,7 @@ const Contact = ({ name, phone, deleteContacts, id }) => {
       <button
         type="button"
         className={css.deleteContactBtn}
-        onClick={() => deleteContacts(id)}
-      >
+        onClick={() => deleteContacts(id)}>
         Delete
       </button>
     </li>
